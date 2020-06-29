@@ -1,0 +1,148 @@
+/*for mobile*/
+@media (max-width:480px){
+    /*start login_page*/
+    .logo{
+        margin-top: 0px;
+    }
+    
+    .down h3{.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form
+        margin:0px;
+    }
+    .top h3{
+        font-size:17px;
+    }
+    .navbar-nav {
+    margin-top: -12px;
+    }
+    .btn-group-sm>.btn, .btn-sm{
+        margin-bottom: 10px;
+    }
+    .add_comment{
+      padding: 5px;
+      margin-left: 10%;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+        color:white;
+    }
+    .fixed_nav,
+    .navbar-inverse .navbar-form{
+        display: none;
+    }
+    /*end login_page*/
+    /*start profile*/
+    nav #app-navbar-collapse .btn-info{
+        left: -15px;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a{
+        color:white;
+    }
+    .header_profile {
+        height: 450px;
+    }
+    .header_profile .profile_image {
+       width: 100px;
+       height: 100px;
+       bottom: 140px;
+       left: 35%;
+       top:60px;
+    }
+    .header_profile .profile_image .after_image .download_new_image{
+       width: 86px;
+       height:86px;
+    }
+    .header_profile .profile_image .after_image .download_new_image i {
+        margin: 0% 40%;
+        font-size: 20px;
+    }
+    .header_profile .profile_name_and_mail {
+        bottom: 60px;
+        left: 10%;
+    }
+    /*end profile*/
+}
+/*smart phones and tablets*/
+@media (min-width:481px) and (max-width:767px){
+    .logo{
+        margin-top: 0px;
+    }
+    .fixed_nav{
+        display: none;
+    }
+    .down h3{
+        margin:0px;
+    }
+     /*start profile*/
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a{
+        color:white;
+    }
+    .header_profile {
+        height: 450px;
+    }
+    .header_profile .profile_image {
+       width: 120px;
+       height: 120px;
+       bottom: 140px;
+       left: 35%;
+       top:60px;
+    }
+    .header_profile .profile_image .after_image .download_new_image{
+       width: 106px;
+       height:106px;
+    }
+    .header_profile .profile_image .after_image .download_new_image i {
+        margin: 10% 40%;
+        font-size: 24px;
+    }
+    .header_profile .profile_name_and_mail {
+        bottom: 10px;
+        left: 5%;
+    }
+    /*end profile*/
+    .add_comment{
+      padding: 5px;
+      margin-left: 10%;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+        color:white;
+    }
+    .fixed_nav,
+    .navbar-inverse .navbar-form{
+        display: none;
+    }
+    .navbar-nav {
+    margin-top: -12px;
+    }
+}
+/*for mobile*/
+@media (min-width:768px) and (max-width:991px){
+    .fixed_nav{
+        display: none;
+    }
+    .logo{
+        margin-top: 0px;
+    }
+    .down h3{
+        margin:0px;
+    }
+    .header_profile .profile_name_and_mail {
+        left: 35%;
+    }
+}
+/*for mobile*/
+@media (min-width:992px) and (max-width:1199px){
+     .logo{
+        margin-top: 0px;
+    }
+    .fixed_nav{
+        display: none;
+    }
+    .down h3{
+        margin:0px
+    }
+    .section_right{
+           margin-top:0px;
+    }
+    .header_profile .profile_name_and_mail {
+        left: 28%;
+    }
+}

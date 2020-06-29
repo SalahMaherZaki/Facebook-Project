@@ -1,0 +1,110 @@
+
+body
+{
+  background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+     overflow-x: hidden;
+}
+.cycle{
+      border: 1px solid #AAA;
+      height: 60px;
+      border-radius: 50%;
+      text-align: center;
+      box-shadow: 0px 0px 5px #e6e6e6;
+      width: 60px;
+      margin: auto;
+     font-size: 18px;
+     padding-top: 20px;
+}
+.cycle a{color:white;text-decoration:none}
+.btn-link
+{
+    color:white;
+}
+.modal-heading h2
+{
+    color:#ffffff;
+}
+.pad{
+  padding: 0px 15px;
+}
+
+.login-form,#sign-form
+{
+    margin-top: 97px;
+    transition:1s;
+}
+
+.navbar-inverse .navbar-brand
+{
+    color: #9eaa91;
+    font-family: 'Bree Serif', serif;
+    font-size: 27px;
+}
+
+
+.modal-content
+{
+    position: relative;
+    background-color: white;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+.btn-info
+{
+    color: #fff;
+    background-color: #222222;
+    border-color: #222222;
+}
+.modal-heading h2
+{
+    color: black;
+}
+.white_box{
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 30%;
+  color: white;
+  font-size: 20px;
+  text-decoration: bold;
+  padding: 10px;
+  border-radius: 7.5px;
+  border:2px solid ;
+}
+.white1_box{
+  margin-top: 150px;;
+  margin-left: 900px;
+  width: 30%;
+  color: white;
+  font-size: 20px;
+  text-decoration: bold;
+  padding: 10px;
+  border-radius: 7.5px;
+  border:2px solid ;
+}
+@media (min-width:481px) and (max-width:767px)
+{
+ #login-form,#sign-form
+    {
+         margin-top: 158px;
+    }
+}
+.add_comment{
+  margin-left:79%;
+}
+.panel-default>.panel-heading{
+  background-color: #3097d1;
+  border-color: #3097d1;
+  color: white;
+}
+.small_name{
+  padding-top: 12px;
+}
